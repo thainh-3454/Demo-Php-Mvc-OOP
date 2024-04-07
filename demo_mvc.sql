@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Apr 05, 2024 at 08:51 AM
+-- Generation Time: Apr 07, 2024 at 04:20 PM
 -- Server version: 8.2.0
 -- PHP Version: 7.4.33
 
@@ -46,7 +46,6 @@ CREATE TABLE IF NOT EXISTS `posts` (
 --
 
 INSERT INTO `posts` (`post_name`, `post_description`, `post_type`, `post_image`, `create_at`, `update_at`, `user_id`, `id`) VALUES
-('fdfg', 'dfgfdgdg', 1, '', '2024-04-05 13:24:56', '2024-04-05 13:24:56', 47, 14),
 ('asdasd', 'asdasdasdsad', 1, '', '2024-04-05 13:37:36', '2024-04-05 13:37:36', 47, 15),
 ('asdasd', 'adasdsadasd', 3, '', '2024-04-05 14:45:37', '2024-04-05 14:45:47', 50, 16);
 
@@ -75,7 +74,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `address`, `password`, `remember_token`, `failed_attempts`, `last_attempt`, `locked_until`) VALUES
-(47, 'Nguyễn Hoàng Thái', 'nguyenhoangthai7871@gmail.com', '', '$2y$10$nsc.jKr1L2T.RR2xCkKXBuihbl4WehtMPDIaP0MiO8pwRV2GaXFG.', '', 0, '0000-00-00 00:00:00', 1712212242),
+(47, 'Nguyễn Hoàng Thái', 'nguyenhoangthai7871@gmail.com', '', '$2y$10$nsc.jKr1L2T.RR2xCkKXBuihbl4WehtMPDIaP0MiO8pwRV2GaXFG.', '5eaf7f00df785ab857b41d140d360d52', 0, '0000-00-00 00:00:00', 1712212242),
 (50, 'Thái Nguyễn', 'nguyenhoangthai7872@gmail.com', '', '$2y$10$fPTN1HTr8aJ9rrlwPEFos.JV2k5csLMiqShlVSUR5cKAFxH/4y7H6', '', 0, '0000-00-00 00:00:00', 0),
 (51, 'Nguyễn Thái', 'nguyenhoangthai7873@gmail.com', '', '$2y$10$9kv6.rnoKz0BgOzrtdMrouv8AzmOH2/9E7LqfXj3J1zvhxrQTvgMG', '', 0, '0000-00-00 00:00:00', 0);
 
